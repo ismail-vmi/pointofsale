@@ -64,12 +64,19 @@ Create backup*, then copy the file somewhere off the machine.
 
 ## Rolling back
 
-1. Uninstall the current version and choose **No** when asked about business data.
-2. Install the older version from its release page.
-3. If the newer version had upgraded your database, restore the
-   `superpos_pre_upgrade_…​.db` copy (or the older `sufiyan-pos_pre_upgrade_…​.db`) from *Backup &
-   Restore*. A database from a newer version is refused rather than opened, so this step is not
-   optional.
+Only the current release is published. Superseded versions are removed once a newer one is
+available, so there is no older installer to download — if a release causes you a problem, contact
+support rather than trying to go backwards.
+
+**Your data is still safe either way.** Before any version upgrades your database it writes a
+complete copy of it first, and that copy stays on your computer:
+
+1. Open *Backup & Restore*.
+2. Restore the `superpos_pre_upgrade_…​.db` copy taken just before the upgrade (older
+   installations may have one named `sufiyan-pos_pre_upgrade_…​.db`).
+
+A database that has been upgraded by a newer version is refused rather than opened by an older
+one, so restoring that pre-upgrade copy is the step that matters — not reinstalling an old build.
 
 ## Where your data is
 
@@ -89,12 +96,70 @@ exports/    Excel exports
 logs/       application log, useful when reporting a problem
 ```
 
-The database is encrypted and sealed to this Windows account. Copying `sufiyan-pos.db` to another
-computer will not make it readable — move a **backup** and restore it instead.
+### Your data is locked to this computer and this Windows account
+
+The database is encrypted, and its key is sealed by Windows itself against your user account on
+this machine. That is what makes a stolen laptop or a copied file harmless.
+
+It also has a consequence worth knowing **before** you need it:
+
+> **Backups restore only on the computer that made them.** Copying `sufiyan-pos.db`, or a backup
+> file, to a different computer or a different Windows account will not make it readable there.
+
+So a backup protects you against the things that actually go wrong day to day — a mistaken
+deletion, a bad import, a failed disk in the same machine — and it is well worth keeping. It is
+not, on its own, a way to move your shop to a new computer.
+
+**If you are replacing the computer, contact support before you wipe the old one.** Export what
+you need to Excel while the old machine still works. A proper "move to a new computer" feature is
+planned; until it exists, please do not assume your backups will open elsewhere.
 
 ---
 
 ## Release notes
+
+### v1.2.2 — you choose your own administrator password
+
+**Your data, your users, your settings and the way the system works are unchanged.** Upgrading is
+the same as always: install over the top, and everything is where you left it.
+
+**No more shared default password.** Until now every copy of the software started with the same
+built-in administrator and the same password, and that password was printed in the documentation.
+That was fine when the software was handed to one shop in person. It is not fine for a product
+anyone can download.
+
+A **brand-new installation** now opens a short setup wizard instead:
+
+- **Store information** — shop name, branch, address, phone, email, currency and tax.
+- **Administrator** — your name, an email address and/or mobile number, and a password you choose.
+
+You are signed in automatically when it finishes.
+
+**If you are already using the software, you will not see the wizard.** Your administrator
+account, your password and every other user are exactly as they were. The wizard only appears on
+an installation that has never been signed into.
+
+Keep your password somewhere safe. It is stored only as a cryptographic hash inside your encrypted
+database, so nobody — including the developer — can recover it for you.
+
+**Also in this release**
+
+- The installer now shows the licence agreement before installing.
+- Every release publishes SHA-256 checksums, so you can verify a download is genuine before you
+  run it. See the release page.
+- Full attribution for the open-source components the application uses, and a machine-readable
+  software bill of materials.
+- Groundwork for signed Windows and macOS builds, which will remove the "unknown publisher"
+  warnings once the certificates are in place.
+- Preparation for the **Founder Free Period**: the software is free to use, and this release adds
+  the internal plumbing to describe that without changing anything you can do. Nothing is
+  restricted, nothing is checked over the internet, and no account is required.
+
+**Still true, and staying true**
+
+- Everything works with no internet connection.
+- Your business data stays in an encrypted database on your own computer.
+- Nothing about your shop is uploaded anywhere.
 
 ### v1.2.1 — the new Super POS & Inventory mark
 

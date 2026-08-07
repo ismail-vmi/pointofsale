@@ -30,7 +30,7 @@ yet code-signed, so Windows and macOS will warn that the publisher is unknown â€
 checksum is how you confirm the file is genuine.
 
 ```bash
-Get-FileHash .\SuperPOSInventory-1.2.1-Setup.exe -Algorithm SHA256
+Get-FileHash .\SuperPOSInventory-1.2.2-Setup.exe -Algorithm SHA256
 ```
 
 Compare the result with the line for that file in the checksum file on the release page.
