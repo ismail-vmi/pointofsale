@@ -1,0 +1,318 @@
+END USER LICENCE AGREEMENT
+Super POS & Inventory
+CodeUmbrella
+
+Version 1.0 — draft of 7 August 2026
+Applies to version 1.2.2 and later.
+
+===============================================================================
+IMPORTANT — READ BEFORE INSTALLING
+
+[LEGAL REVIEW REQUIRED — WHOLE DOCUMENT]
+This is a professionally structured draft prepared to describe the intended
+commercial position of the product. It has NOT been reviewed by a qualified
+lawyer, it is NOT legal advice, and it must be reviewed by counsel before the
+software is offered commercially. Clauses needing particular attention are
+marked [LEGAL REVIEW REQUIRED] individually.
+
+By installing or using Super POS & Inventory ("the Software") you agree to this
+Agreement. If you do not agree, do not install or use the Software.
+===============================================================================
+
+
+1. DEFINITIONS
+
+   "CodeUmbrella", "we", "us"   CodeUmbrella, proprietor Muhammad Ismail, the
+                                owner of the Software. [LEGAL REVIEW REQUIRED —
+                                replace with the registered legal entity once
+                                incorporation is complete.]
+   "You", "the Customer"        The individual or business installing or using
+                                the Software.
+   "Your Business Data"         Everything you record using the Software:
+                                products, categories, stock, customers,
+                                suppliers, invoices, sales, returns,
+                                quotations, purchases, payments, reports,
+                                settings, users and backups.
+   "Device"                     One physical or virtual computer.
+   "Founder Free Period"        The promotional period described in section 5.
+
+
+2. LICENCE GRANTED
+
+2.1 Subject to this Agreement, CodeUmbrella grants you a limited,
+    non-exclusive, non-transferable, revocable licence to install and use the
+    Software for your own business purposes.
+
+2.2 The Software is LICENSED, NOT SOLD. You acquire no ownership of the
+    Software, its source code, its design, or any intellectual property in it.
+
+2.3 The number of Devices you may activate is determined by your licence type.
+    During the Founder Free Period there is no activation limit.
+
+2.4 You may make backup copies of the Software installer for your own use.
+
+
+3. WHAT YOU MAY NOT DO
+
+You may not:
+
+3.1 Copy, distribute, publish, lend, rent, lease, sell or sublicense the
+    Software, or make it available to any third party, except as expressly
+    permitted here.
+
+3.2 Sell, resell or otherwise supply unauthorised copies of the Software.
+
+3.3 Modify, adapt, translate, rebrand, white-label, or create derivative works
+    from the Software, or remove, obscure or alter any copyright, trademark or
+    ownership notice.
+
+3.4 Present the Software, or any part of it, as your own product or as the
+    product of anyone other than CodeUmbrella.
+
+3.5 Reverse engineer, decompile or disassemble the Software, or attempt to
+    derive its source code.
+    [LEGAL REVIEW REQUIRED] This restriction applies only to the extent
+    permitted by applicable law. Several jurisdictions grant a
+    non-excludable right to decompile for interoperability or to correct
+    errors, and this clause does not purport to override such rights.
+
+3.6 Circumvent, disable or interfere with any licensing, activation or
+    entitlement mechanism in the Software.
+
+3.7 Use the Software in a way that breaks any applicable law, including tax,
+    invoicing and record-keeping law in your jurisdiction.
+
+
+4. OWNERSHIP
+
+4.1 CodeUmbrella and its licensors retain all right, title and interest in the
+    Software, including all copyright, trademarks, trade names, designs,
+    documentation and source code.
+
+4.2 Nothing in this Agreement transfers any intellectual property right to you.
+
+4.3 Third-party open-source components included in the Software remain licensed
+    under their own terms, which are reproduced in THIRD_PARTY_NOTICES.txt.
+    Those terms govern those components only.
+
+
+5. FOUNDER FREE PERIOD — TEMPORARY, NOT PERPETUAL
+
+5.1 The Software is currently offered free of charge during a promotional
+    "Founder Free Period".
+
+5.2 THE FOUNDER FREE PERIOD IS TEMPORARY. It is a promotional offer, not a
+    perpetual or "free forever" licence, and it does not create any right to
+    use the Software free of charge indefinitely.
+
+5.3 CodeUmbrella intends the Founder Free Period to run for approximately two
+    years from public launch, and will publish the applicable end date. We may
+    extend it. [LEGAL REVIEW REQUIRED — confirm whether the published end date
+    is a binding commitment for users who install during the period, and
+    whether shortening it requires notice. This materially affects consumer
+    protection exposure.]
+
+5.4 After the Founder Free Period, continued use of new commercial
+    functionality may require a paid subscription. Indicative pricing at the
+    date of this draft is USD 3 per month or USD 30 per year, with a one-month
+    free trial. Prices are indicative only, may change, and may differ between
+    distribution channels.
+
+5.5 CodeUmbrella will give reasonable advance notice before the Founder Free
+    Period ends. [LEGAL REVIEW REQUIRED — define "reasonable" as a specific
+    number of days.]
+
+
+6. SUBSCRIPTIONS, TRIALS AND EXPIRY
+
+6.1 Paid licences may be offered on a monthly or annual subscription, and
+    promotional, founder, referral or reseller extensions may be granted.
+
+6.2 A paid licence does NOT require a constant internet connection. The
+    Software verifies your entitlement periodically and stores a
+    cryptographically signed entitlement locally, so it continues to operate
+    normally while offline, within the published offline grace window.
+
+6.3 YOUR DATA IS NEVER HELD HOSTAGE. If a subscription lapses or expires:
+
+    (a) Your Business Data is never deleted, encrypted further, damaged,
+        withheld or made inaccessible by us;
+    (b) you may still launch the Software, sign in, view your historical
+        records, invoices, customers, products and reports, export your data,
+        and create and restore backups;
+    (c) only new commercial operations may become restricted, in accordance
+        with the published product policy at that time.
+
+6.4 There is no "kill switch". The Software contains no mechanism intended to
+    destroy, corrupt or withhold Your Business Data.
+
+6.5 Refunds, where offered, are governed by TERMS.md and by the refund policy
+    of the payment provider or app store through which you purchased.
+    [LEGAL REVIEW REQUIRED — a statutory cooling-off or refund right may apply
+    and may not be excluded.]
+
+
+7. YOUR BUSINESS DATA
+
+7.1 YOUR BUSINESS DATA BELONGS TO YOU. CodeUmbrella claims no ownership of it,
+    no licence over it, and no right to use it.
+
+7.2 The Software stores Your Business Data in an encrypted database on your own
+    computer. We do not receive a copy of it, and it is not transmitted to
+    CodeUmbrella or to any licensing server. See PRIVACY.md.
+
+7.3 YOU ARE RESPONSIBLE FOR YOUR BACKUPS. The Software provides automatic and
+    manual backup and restore. Because your data is stored only on your own
+    computer, CodeUmbrella cannot recover it if your computer is lost, stolen,
+    damaged or reinstalled, and cannot recover it from a backup you did not
+    take.
+
+7.4 PASSWORDS CANNOT BE RECOVERED. Passwords are stored only as cryptographic
+    hashes inside your encrypted database. Neither CodeUmbrella nor anyone else
+    can recover or reset the administrator password on your behalf.
+
+
+8. UPDATES
+
+8.1 The Software may check for updates and notify you when one is available.
+    Downloading and installing an update is always your choice.
+
+8.2 Updates may add, change or remove functionality. Updates do not delete Your
+    Business Data.
+
+8.3 CodeUmbrella is not obliged to provide updates, support or maintenance
+    indefinitely, or for superseded versions.
+
+
+9. SUPPORT
+
+Support is provided on a reasonable-efforts basis through the channels
+published at https://codeumbrella.com. No specific response time is guaranteed
+unless separately agreed in writing.
+[LEGAL REVIEW REQUIRED — align with any service level you advertise.]
+
+
+10. WARRANTY DISCLAIMER
+
+[LEGAL REVIEW REQUIRED — ENTIRE SECTION]
+Broad disclaimers are limited or void in many jurisdictions, particularly
+against consumers and small businesses. Counsel must confirm what is
+enforceable in Pakistan and in every market you sell into, and must confirm
+whether separate consumer-facing wording is required.
+
+10.1 TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED "AS IS"
+     AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+     INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTY OF MERCHANTABILITY,
+     FITNESS FOR A PARTICULAR PURPOSE, ACCURACY OR NON-INFRINGEMENT.
+
+10.2 CodeUmbrella does not warrant that the Software will be uninterrupted or
+     error-free, or that it will meet your particular requirements.
+
+10.3 The Software is a business record-keeping tool. It is NOT accounting,
+     taxation or legal advice. You remain responsible for the accuracy of your
+     records and for compliance with your tax and invoicing obligations.
+
+10.4 THE SOFTWARE IS NOT CERTIFIED FOR, OR INTEGRATED WITH, ANY GOVERNMENT
+     FISCAL, TAX OR DIGITAL-INVOICING SYSTEM, INCLUDING THE PAKISTAN FEDERAL
+     BOARD OF REVENUE (FBR). Do not rely on it to satisfy any such obligation
+     unless CodeUmbrella has stated in writing that a specific certified
+     integration exists.
+
+10.5 Nothing in this section excludes liability that cannot lawfully be
+     excluded.
+
+
+11. LIMITATION OF LIABILITY
+
+[LEGAL REVIEW REQUIRED — ENTIRE SECTION]
+The liability cap in 11.2 is a commercial decision with real exposure, and its
+enforceability varies by jurisdiction. Counsel must set the figure and confirm
+the carve-outs.
+
+11.1 To the maximum extent permitted by law, CodeUmbrella is not liable for any
+     indirect, incidental, special, consequential or punitive damages, or for
+     loss of profit, revenue, goodwill, business or data, however caused.
+
+11.2 To the maximum extent permitted by law, CodeUmbrella's total aggregate
+     liability arising out of or in connection with this Agreement is limited
+     to the greater of (a) the amount you paid for the Software in the twelve
+     months before the claim arose, or (b) USD 50.
+
+11.3 Sections 11.1 and 11.2 do not apply to liability for death or personal
+     injury caused by negligence, for fraud or fraudulent misrepresentation,
+     or to any other liability that cannot lawfully be limited.
+
+11.4 You acknowledge that the Software is licensed at a low price, or free of
+     charge during the Founder Free Period, and that this allocation of risk
+     is a fundamental basis of the bargain.
+
+
+12. TERMINATION
+
+12.1 This Agreement applies until terminated.
+
+12.2 It terminates automatically if you materially breach it, in particular
+     section 3.
+
+12.3 On termination you must stop using the Software and remove it from your
+     Devices. YOU MAY FIRST EXPORT AND RETAIN YOUR BUSINESS DATA, AND YOU KEEP
+     YOUR EXISTING BACKUPS. Termination of this Agreement does not terminate
+     your ownership of Your Business Data.
+
+12.4 Sections 4, 7, 10, 11 and 14 survive termination.
+
+
+13. THIRD-PARTY DISTRIBUTION CHANNELS
+
+If you obtained the Software through the Microsoft Store, the Mac App Store or
+another distributor, that store's terms also apply to your acquisition of it,
+and its terms prevail over this Agreement to the extent of any conflict on
+matters that store governs (such as payment, refunds and updates).
+
+
+14. GOVERNING LAW AND DISPUTES
+
+[PLACEHOLDER — MUST BE CONFIRMED BY COUNSEL BEFORE PUBLICATION]
+
+    Governing law:            ____________________________________
+    Courts / jurisdiction:    ____________________________________
+    Dispute resolution:       ____________________________________
+
+The intended position is the law of the Islamic Republic of Pakistan with the
+courts of Karachi, Sindh having jurisdiction. THIS HAS NOT BEEN CONFIRMED AND
+MUST NOT BE PUBLISHED AS DRAFTED.
+
+Counsel must specifically advise on:
+  (a) whether a Pakistani choice of law and forum is enforceable against
+      customers in other countries, and whether it deters legitimate sales;
+  (b) whether consumer-protection law in the customer's own country overrides
+      this clause regardless of what it says;
+  (c) whether arbitration is preferable to litigation at this price point;
+  (d) which jurisdiction applies to Microsoft Store and Mac App Store sales,
+      where the store may be the merchant of record;
+  (e) whether a separate consumer-facing agreement is needed for the EU/UK.
+
+
+15. GENERAL
+
+15.1 This Agreement, with TERMS.md, PRIVACY.md and THIRD_PARTY_NOTICES.txt, is
+     the entire agreement between you and CodeUmbrella about the Software.
+
+15.2 If any provision is held unenforceable, the rest remains in force.
+
+15.3 A failure to enforce a provision is not a waiver of it.
+
+15.4 CodeUmbrella may update this Agreement for future versions. The version
+     accompanying the copy you installed governs that copy.
+
+15.5 You may not assign this Agreement. CodeUmbrella may assign it as part of a
+     transfer of the business or the Software.
+
+
+CONTACT
+    CodeUmbrella
+    Proprietor: Muhammad Ismail
+    https://codeumbrella.com
+    ismailamin.pk@gmail.com
+
+Copyright © 2026 CodeUmbrella — Muhammad Ismail. All rights reserved.

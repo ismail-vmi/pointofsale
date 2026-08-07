@@ -1,0 +1,46 @@
+Super POS & Inventory
+Copyright © 2026 CodeUmbrella — Muhammad Ismail. All rights reserved.
+
+PROPRIETARY SOFTWARE — NOT OPEN SOURCE
+
+This software and its source code are proprietary and confidential. They are
+licensed, not sold.
+
+No permission is granted to copy, modify, merge, publish, distribute,
+sublicense, sell, rebrand or create derivative works from this software or its
+source code, except as expressly permitted by the End User Licence Agreement
+in EULA.txt or by a separate written agreement signed by the copyright holder.
+
+This software is NOT released under the MIT, Apache, GPL, BSD or any other
+open-source licence. The absence of an open-source licence file is deliberate.
+No such licence should be inferred from the software having previously been
+published in a public source repository.
+
+USE OF THE COMPILED APPLICATION
+    Your right to install and use the packaged application is governed by
+    EULA.txt, which accompanies every distributed copy.
+
+THIRD-PARTY COMPONENTS
+    This software incorporates open-source components that remain under their
+    own licences. Those licences apply to those components only, and grant no
+    rights over this software. See THIRD_PARTY_NOTICES.txt.
+
+YOUR BUSINESS DATA IS NOT COVERED BY THIS LICENCE
+    Everything you record using this software — your products, customers,
+    suppliers, invoices, sales, purchases, stock and reports — belongs to you.
+    CodeUmbrella claims no ownership of it and does not receive a copy of it.
+    See PRIVACY.md.
+
+CONTACT
+    CodeUmbrella
+    https://codeumbrella.com
+    ismailamin.pk@gmail.com
+
+-------------------------------------------------------------------------------
+NOTE FOR THE COPYRIGHT HOLDER — REMOVE BEFORE PUBLIC DISTRIBUTION
+[LEGAL REVIEW REQUIRED] This file, EULA.txt and TERMS.md are professionally
+structured drafts prepared to describe the intended commercial position. They
+have not been reviewed by a qualified lawyer and are not legal advice. Have
+them reviewed before the software is offered commercially, and confirm the
+governing-law and dispute-resolution provisions in EULA.txt.
+-------------------------------------------------------------------------------
